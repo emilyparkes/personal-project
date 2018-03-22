@@ -1,0 +1,50 @@
+{
+  "name": "personal-project",
+  "version": "1.0.0",
+  "description": "A website for myself",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyparkes/personal-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilyparkes/personal-project/issues"
+  },
+  "homepage": "https://github.com/emilyparkes/personal-project#readme",
+  
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon --watch server",
+    "build": "webpack --config ./client/webpack.config.js"
+  },
+
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.1.0",
+    "superagent": "^3.8.1",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^21.1.0",
+    "nodemon": "^1.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
