@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Header = () => {
+import Slideshow from './portfolio/slideshow'
+
+const Portfolio = () => {
   return (
     <div>
-      <Nav />
+      <Slideshow />
     </div>
   )
 }
